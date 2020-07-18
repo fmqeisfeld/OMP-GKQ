@@ -11,4 +11,3 @@ Note that this rather unoptimzed code performs better than  GSL only if the func
 ```bash
 gcc ompquad.c -lgsl -lgslcblas -fopenmp -lm
 ./a.out
-...
