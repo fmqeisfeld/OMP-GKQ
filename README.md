@@ -10,4 +10,5 @@ Note that this rather unoptimzed code performs better than  GSL only if the func
 ## Usage
 ```bash
 gcc ompquad.c -lgsl -lgslcblas -fopenmp -lm
+export OMP_NUM_THREADS=8
 ./a.out
